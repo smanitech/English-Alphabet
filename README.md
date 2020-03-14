@@ -93,7 +93,7 @@ An Alexa Presentation Language (APL) skill for children.
 
         * `open english alphabet` (or whatever invocation name you used)
 
-        <p align='center'>
-          <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/4.png'><br/>
-          <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/5.png'><br/>
-        </p>
+    <p align='center'>
+      <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/4.png'><br/>
+      <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/5.png'><br/>
+    </p>
