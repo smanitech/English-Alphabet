@@ -76,17 +76,17 @@ An Alexa Presentation Language (APL) skill for children.
     2. Copy folder named `lambda` **&** folder named `models` from this repo. then, Follow the Below Commands.
 
     	```bash
-      $ ls
     	$ cd English_Alphabet
     	$ git add .
       $ git commit -m "updated"
       $ ask deploy
     	```
+
       <p align='center'>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/3.png'><br/>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/4.png'><br/>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/5.png'><br/>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/6.png'><br/>
       </p>
-    1. Click on the **Test** tab, enable the skill and check it out.  Phrases you can try include:
+    3. Click on the **Test** tab, enable the skill and check it out.  Phrases you can try include:
         * `open english alphabet` (or whatever invocation name you used)
