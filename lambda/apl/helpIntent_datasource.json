@@ -1,0 +1,36 @@
+{
+    "eaidData": {
+      "description": "Use this datasource to render Help Template in APL Authoring Tool",
+      "headerTitle": "HELP",
+      "headerBackButton": "true",
+      "headerSubtitle": "Select the Alphabet that you want to recall",
+      "items": [
+          { "primaryText": "Alphabet A", "id": "1" },
+          { "primaryText": "Alphabet B", "id": "2" },
+          { "primaryText": "Alphabet C", "id": "3" },
+          { "primaryText": "Alphabet D", "id": "4" },
+          { "primaryText": "Alphabet E", "id": "5" },
+          { "primaryText": "Alphabet F", "id": "6" },
+          { "primaryText": "Alphabet G", "id": "7" },
+          { "primaryText": "Alphabet H", "id": "8" },
+          { "primaryText": "Alphabet I", "id": "9" },
+          { "primaryText": "Alphabet J", "id": "10" },
+          { "primaryText": "Alphabet K", "id": "11" },
+          { "primaryText": "Alphabet L", "id": "12" },
+          { "primaryText": "Alphabet M", "id": "13" },
+          { "primaryText": "Alphabet N", "id": "14" },
+          { "primaryText": "Alphabet O", "id": "15" },
+          { "primaryText": "Alphabet P", "id": "16" },
+          { "primaryText": "Alphabet Q", "id": "17" },
+          { "primaryText": "Alphabet R", "id": "18" },
+          { "primaryText": "Alphabet S", "id": "19" },
+          { "primaryText": "Alphabet T", "id": "20" },
+          { "primaryText": "Alphabet U", "id": "21" },
+          { "primaryText": "Alphabet V", "id": "22" },
+          { "primaryText": "Alphabet W", "id": "23" },
+          { "primaryText": "Alphabet X", "id": "24" },
+          { "primaryText": "Alphabet Y", "id": "25" },
+          { "primaryText": "Alphabet Z", "id": "26" }
+      ]
+    }
+  }

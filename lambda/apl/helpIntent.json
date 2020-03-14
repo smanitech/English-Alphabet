@@ -1,0 +1,71 @@
+{
+    "type": "APL",
+    "version": "1.1",
+    "import": [
+        {
+            "name": "alexa-viewport-profiles",
+            "version": "1.1.0"
+        },
+        {
+            "name": "alexa-layouts",
+            "version": "1.1.0"
+        }
+    ],
+    "resources": [
+        {
+            "description": "Background Image for Help Screen on Small Round Hubs",
+            "when": "${@viewportProfile == @hubRoundSmall}",
+            "strings": {
+                "backgroundImg": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/background.jpg"
+            }
+        },
+        {
+            "description": "Background Image for Help Screen on Landscape Hubs",
+            "when": "${@viewportProfile == @hubLandscapeSmall || @viewportProfile == @hubLandscapeMedium || @viewportProfile == @hubLandscapeLarge}",
+            "strings": {
+                "backgroundImg": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/background.jpg"
+            }
+        },
+        {
+            "description": "Background Image for Help Screen on XLarge Hubs (e.g TV)",
+            "when": "${@viewportProfile == @tvLandscapeXLarge}",
+            "strings": {
+                "backgroundImg": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/background.jpg"
+            }
+        },
+        {
+            "description": "Skill Icon",
+            "strings": {
+                "skillIcon": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/logo.svg"
+            }
+        }
+    ],
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "AlexaTextList",
+                "theme": "${viewport.theme}",
+                "headerTitle": "${payload.eaidData.headerTitle}",
+                "headerSubtitle": "${payload.eaidData.headerSubtitle}",
+                "headerAttributionImage": "@skillIcon",
+                "headerDivider": true,
+                "headerBackButton": "${payload.eaidData.headerBackButton}",
+                "backgroundImageSource": "@backgroundImg",
+                "backgroundScale": "best-fill",
+                "backgroundAlign": "center",
+                "hideOrdinal": true,
+                "primaryAction": {
+                    "type": "SendEvent",
+                    "arguments": [
+                        "eaidInstructions",
+                        "${data.id}"
+                    ]
+                },
+                "listItems": "${payload.eaidData.items}"
+            }
+        ]
+    }
+}
