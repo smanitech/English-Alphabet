@@ -78,18 +78,17 @@ An Alexa Presentation Language (APL) skill for children.
     	```bash
     	$ cd English_Alphabet
     	$ git add .
-    	```
-        ```bash
-        $ git commit -m "updated"
-        $ ask deploy
-        ```
+      $ git commit -m "updated"
+      $ ask deploy
+      ```
+      
       Example:
       <p align='center'>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/3.png'><br/>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/4.png'><br/>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/5.png'><br/>
-        <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/6.png'><br/>
       </p>
+
     3. Click on the **Test** tab, enable the skill and check it out.  Phrases you can try include:
 
         * `open english alphabet` (or whatever invocation name you used)
