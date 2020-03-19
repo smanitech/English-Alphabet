@@ -65,7 +65,9 @@ An Alexa Presentation Language (APL) skill for children.
     	$ ask init
       $ ask clone
     	```
+
       then select you skill using arrow keys and hit enter
+
       <p align='center'>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/1.png'><br/>
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/2.png'>
