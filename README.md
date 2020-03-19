@@ -23,7 +23,6 @@ An Alexa Presentation Language (APL) skill for children.
 3. It may take a minute, but when your skill is ready, go to the **JSON Editor** section and replace all the contents with the interaction model from [here](./models) that matches the locale you chose in the previous step.  Click **Save Model**.
 4. Save that change and build your model.
 5. Click on the **Code** tab and update the following files with the contents from this repo:
-
 6. Add the following files in folder named `lambda` with noted content:
     * `alphabet.js` from the file [alphabet.js](./lambda/alphabet.js) (Alphabet Name & instructions - all locales)
     * `alphabetUtils.js` from the file [alphabetUtils.js](./lambda/alphabetUtils) (Utilities to manage alphabet)
@@ -36,18 +35,17 @@ An Alexa Presentation Language (APL) skill for children.
 8. In the **apl** folder, create these files with the noted content:
     * `launchRequest.json` from the file [launchRequest.json](./lambda/apl/launchRequest.json) (APL Template for Launch Screen)
     * `launchRequest_datasource.json` from the file [launchRequest_datasource.json](./lambda/apl/launchRequest_datasource.json) (APL Data for Launch Screen)
-    * `engAlphabetIntent.json` from the file [engAlphabetIntent.json](./lambda/apl/engAlphabetIntent.json) (APL Template for Alphabet Screen)
-    * `engAlphabetIntent_datasource.json` from the file [engAlphabetIntent_datasource.json](./lambda/apl/engAlphabetIntent_datasource.json) (APL Data for Alphabet Screen)
+    * `alphabetIntent.json` from the file [alphabetIntent.json](./lambda/apl/alphabetIntent.json) (APL Template for Alphabet Screen)
+    * `alphabetIntent_datasource.json` from the file [alphabetIntent_datasource.json](./lambda/apl/alphabetIntent_datasource.json) (APL Data for Alphabet Screen)
     * `helpIntent.json` from the file [helpIntent.json](./lambda/apl/helpIntent.json) (APL Template for Help Screen)
     * `helpIntent_datasource.json` from the file [helpIntent_datasource.json](./lambda/apl/helpIntent_datasource.json) (APL Data for Help Screen)
-
 9. Save and Deploy the function
 10. Click on the **Test** tab, enable the skill and check it out.  Phrases you can try include:
     * `open english alphabet` (or whatever invocation name you used)
 
 ## ask-cli Steps
 
-1. Clone the repository.
+1. Clone my repository.
 
 	```bash
 	$ git clone https://github.com/smanitech/English-Alphabet
@@ -62,10 +60,10 @@ An Alexa Presentation Language (APL) skill for children.
 4. It may take a minute, but when your skill is ready, open terminal inside a folder where you want to clone your APL template.
 
     1. Initialize the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html) by navigating into the repository `ask init`. Follow the prompts.
-    prompts.
 
     	```bash
-    	$ ask clone
+    	$ ask init
+      $ ask clone
     	```
       then select you skill using arrow keys and hit enter
       <p align='center'>
@@ -73,7 +71,7 @@ An Alexa Presentation Language (APL) skill for children.
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/2.png'>
       </p>
 
-    2. Copy folder named `lambda` **&** folder named `models` from this repo. then, Follow the Below Commands.
+    2. delete folder named `lambda` **&** folder named `models` & Copy folder named `lambda` **&** folder named `models` from my repo. then, Follow the Below Commands.
 
     	```bash
     	$ cd English_Alphabet
