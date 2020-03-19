@@ -73,7 +73,7 @@ An Alexa Presentation Language (APL) skill for children.
         <img src='https://raw.githubusercontent.com/smanitech/English-Alphabet/master/Screenshots/2.png'>
       </p>
 
-    2. delete folder named `lambda` **&** folder named `models` & Copy folder named `lambda` **&** folder named `models` from my repo. then, Follow the Below Commands.
+    2. Delete folder named `lambda` **&** folder named `models` & Copy folder named `lambda` **&** folder named `models` from my repo. then, Follow the Below Commands.
 
     	```bash
     	$ cd English_Alphabet
