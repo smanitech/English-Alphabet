@@ -1,0 +1,36 @@
+{
+    "alphabetData": {
+      "description": "Use this datasource to render Help Template in APL Authoring Tool",
+      "headerTitle": "HELP",
+      "headerBackButton": "true",
+      "headerSubtitle": "Select the Alphabet that you want to learn",
+      "items": [
+        { "primaryText": "Alphabet A", "id": "A" },
+        { "primaryText": "Alphabet B", "id": "B" },
+        { "primaryText": "Alphabet C", "id": "C" },
+        { "primaryText": "Alphabet D", "id": "D" },
+        { "primaryText": "Alphabet E", "id": "E" },
+        { "primaryText": "Alphabet F", "id": "F" },
+        { "primaryText": "Alphabet G", "id": "G" },
+        { "primaryText": "Alphabet H", "id": "H" },
+        { "primaryText": "Alphabet I", "id": "I" },
+        { "primaryText": "Alphabet J", "id": "J" },
+        { "primaryText": "Alphabet K", "id": "K" },
+        { "primaryText": "Alphabet L", "id": "L" },
+        { "primaryText": "Alphabet M", "id": "M" },
+        { "primaryText": "Alphabet N", "id": "N" },
+        { "primaryText": "Alphabet O", "id": "O" },
+        { "primaryText": "Alphabet P", "id": "P" },
+        { "primaryText": "Alphabet Q", "id": "Q" },
+        { "primaryText": "Alphabet R", "id": "R" },
+        { "primaryText": "Alphabet S", "id": "S" },
+        { "primaryText": "Alphabet T", "id": "T" },
+        { "primaryText": "Alphabet U", "id": "U" },
+        { "primaryText": "Alphabet V", "id": "V" },
+        { "primaryText": "Alphabet W", "id": "W" },
+        { "primaryText": "Alphabet X", "id": "X" },
+        { "primaryText": "Alphabet Y", "id": "Y" },
+        { "primaryText": "Alphabet Z", "id": "Z" }
+      ]
+    }
+  }

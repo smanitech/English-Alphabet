@@ -1,0 +1,149 @@
+{
+    "alphabetData": {
+        "type": "object",
+        "properties": {
+            "description": "Use this datasource to render Launch Template in APL Authoring Tool",
+            "headerTitle": "WELCOME TO ENGLISH ALPHABET",
+            "hintText": "show images of alphabet {{alphabet}}",
+            "items": [
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/A.png",
+                    "text": "A",
+                    "id": "A"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/B.png",
+                    "text": "B",
+                    "id": "B"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/C.png",
+                    "text": "C",
+                    "id": "C"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/D.png",
+                    "text": "D",
+                    "id": "D"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/E.png",
+                    "text": "E",
+                    "id": "E"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/F.png",
+                    "text": "F",
+                    "id": "F"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/G.png",
+                    "text": "G",
+                    "id": "G"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/H.png",
+                    "text": "H",
+                    "id": "H"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/I.png",
+                    "text": "I",
+                    "id": "I"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/J.png",
+                    "text": "J",
+                    "id": "J"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/K.png",
+                    "text": "K",
+                    "id": "K"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/L.png",
+                    "text": "L",
+                    "id": "L"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/M.png",
+                    "text": "M",
+                    "id": "M"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/N.png",
+                    "text": "N",
+                    "id": "N"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/O.png",
+                    "text": "O",
+                    "id": "O"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/P.png",
+                    "text": "P",
+                    "id": "P"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/Q.png",
+                    "text": "Q",
+                    "id": "Q"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/R.png",
+                    "text": "R",
+                    "id": "R"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/S.png",
+                    "text": "S",
+                    "id": "S"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/T.png",
+                    "text": "T",
+                    "id": "T"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/U.png",
+                    "text": "U",
+                    "id": "U"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/V.png",
+                    "text": "V",
+                    "id": "V"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/W.png",
+                    "text": "W",
+                    "id": "W"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/X.png",
+                    "text": "X",
+                    "id": "X"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/Y.png",
+                    "text": "Y",
+                    "id": "Y"
+                },
+                {
+                    "image": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/Z.png",
+                    "text": "Z",
+                    "id": "Z"
+                }
+            ]
+        },
+        "transformers": [
+            {
+                "inputPath": "hintText",
+                "transformer": "textToHint"
+            }
+        ]
+        
+    }
+}

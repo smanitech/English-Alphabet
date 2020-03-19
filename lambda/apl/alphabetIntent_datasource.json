@@ -1,0 +1,26 @@
+{
+    "alphabetData": {
+        "type": "object",
+        "properties": {
+            "description": "Use this datasource to render Alphabet Template in APL Authoring Tool",
+            "headerTitle": "English Alphabet",
+            "headerBackButton": "true",
+            "alphabetImg": "https://raw.githubusercontent.com/smanitech/English-Alphabet/master/assets/images/Alphabet/logo.svg",
+            "alphabetText": "Text",
+            "alphabetSssml": "<speak>English Alphabet</speak>",
+            "hintText": "help me"
+        },
+        "transformers": [
+            {
+                "inputPath": "alphabetSsml",
+                "transformer": "ssmlToSpeech",
+                "outputName": "alphabetSpeech"
+            },
+            {
+                "inputPath": "hintText",
+                "transformer": "textToHint"
+            }
+        ]
+        
+    }
+}

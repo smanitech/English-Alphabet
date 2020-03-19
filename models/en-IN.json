@@ -1,0 +1,320 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "english alphabet",
+      "intents": [
+        {
+          "name": "AlphabetIntent",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "LIST_OF_ALPHABET",
+              "samples": [
+                "I want to study about alphabet {Item}",
+                "I want to learn about alphabet {Item}",
+                "alphabet {Item} sounds good",
+                "show some images of alphabet {Item}",
+                "show images of alphabet {Item}",
+                "how about alphabet {Item}",
+                "show alphabet {Item}",
+                "speak alphabet {Item}",
+                "display alphabet {Item}",
+                "alphabet {Item}",
+                "{Item}"
+              ]
+            }
+          ],
+          "samples": [
+            "{Item}",
+            "alphabet {Item}",
+            "I want to study about alphabet {Item}",
+            "I want to learn about alphabet {Item}",
+            "alphabet {Item} sounds good",
+            "show some images of alphabet {Item}",
+            "show images of alphabet {Item}",
+            "how about alphabet {Item}",
+            "show alphabet {Item}",
+            "speak alphabet {Item}",
+            "display alphabet {Item}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "A",
+              "name": {
+                "value": "A"
+              }
+            },
+            {
+              "id": "B",
+              "name": {
+                "value": "B"
+              }
+            },
+            {
+              "id": "C",
+              "name": {
+                "value": "C"
+              }
+            },
+            {
+              "id": "D",
+              "name": {
+                "value": "D"
+              }
+            },
+            {
+              "id": "E",
+              "name": {
+                "value": "E"
+              }
+            },
+            {
+              "id": "F",
+              "name": {
+                "value": "F"
+              }
+            },
+            {
+              "id": "G",
+              "name": {
+                "value": "G"
+              }
+            },
+            {
+              "id": "H",
+              "name": {
+                "value": "H"
+              }
+            },
+            {
+              "id": "I",
+              "name": {
+                "value": "I"
+              }
+            },
+            {
+              "id": "J",
+              "name": {
+                "value": "J"
+              }
+            },
+            {
+              "id": "K",
+              "name": {
+                "value": "K"
+              }
+            },
+            {
+              "id": "L",
+              "name": {
+                "value": "L"
+              }
+            },
+            {
+              "id": "M",
+              "name": {
+                "value": "M"
+              }
+            },
+            {
+              "id": "N",
+              "name": {
+                "value": "N"
+              }
+            },
+            {
+              "id": "O",
+              "name": {
+                "value": "O"
+              }
+            },
+            {
+              "id": "P",
+              "name": {
+                "value": "P"
+              }
+            },
+            {
+              "id": "Q",
+              "name": {
+                "value": "Q"
+              }
+            },
+            {
+              "id": "R",
+              "name": {
+                "value": "R"
+              }
+            },
+            {
+              "id": "S",
+              "name": {
+                "value": "S"
+              }
+            },
+            {
+              "id": "T",
+              "name": {
+                "value": "T"
+              }
+            },
+            {
+              "id": "U",
+              "name": {
+                "value": "U"
+              }
+            },
+            {
+              "id": "V",
+              "name": {
+                "value": "V"
+              }
+            },
+            {
+              "id": "W",
+              "name": {
+                "value": "W"
+              }
+            },
+            {
+              "id": "X",
+              "name": {
+                "value": "X"
+              }
+            },
+            {
+              "id": "Y",
+              "name": {
+                "value": "Y"
+              }
+            },
+            {
+              "id": "Z",
+              "name": {
+                "value": "Z"
+              }
+            }
+          ],
+          "name": "LIST_OF_ALPHABET"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "AlphabetIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "Item",
+              "type": "LIST_OF_ALPHABET",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "ElicitItemPrompt"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "ItemValidationPrompt"
+                }
+              ]
+            }
+          ],
+          "delegationStrategy": "ALWAYS"
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "ElicitItemPrompt",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What would you like to learn?"
+          }
+        ]
+      },
+      {
+        "id": "ItemValidationPrompt",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "I did not catch that.  What would you like to do?"
+          },
+          {
+            "type": "PlainText",
+            "value": "I do not know that .  What would you like to do?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "1"
+}
