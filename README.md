@@ -61,10 +61,10 @@ An Alexa Presentation Language (APL) skill for children.
 
     1. Initialize the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html) by navigating into the repository `ask init`. Follow the prompts.
 
-    	```bash
-    	$ ask init
-      $ ask clone
-    	```
+      	```bash
+      	$ ask init
+        $ ask clone
+      	```
 
       then select you skill using arrow keys and hit enter
 
